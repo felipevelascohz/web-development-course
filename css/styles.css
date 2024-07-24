@@ -1,0 +1,41 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+h1.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+    
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1.titulo span {
+    font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+nav.navegacion-principal {
+    padding: 1rem;
+}
+nav.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+}
